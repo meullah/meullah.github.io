@@ -1,0 +1,60 @@
+#title{
+	text-align: center;
+	text-transform: uppercase;
+	background-color: steelblue;
+	color: white;
+	margin: 0;
+	transition: background 0.7s;
+
+}
+body{
+	margin: 0;
+	background-color: #232323;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+#menuBar{
+	height: 30px;
+	color: black;
+	background-color: white;
+	text-align: center;
+	margin: 0;
+}
+
+#message{
+	margin: 0 10%;
+	display: inline-block;
+	width: 20px;
+}
+button{
+	border: 0;
+	background: none;
+	margin: 0;
+	text-transform: uppercase;
+	height: 100%;
+	color: steelblue;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 700;
+	outline: none;
+	transition: all 0.2s;
+}
+
+button:hover{
+	background-color: steelblue;
+	color: white;
+} 
+
+.box{
+	width: 30%;
+	background-color: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 20%;
+	transition: background 0.7s;
+}
+
+#container{
+	margin: 0 auto;
+	max-width: 600px;
+	padding-top: 20px;
+}
